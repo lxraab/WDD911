@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+	<title>002.html</title>
+	<script type="text/javascript">
+
+		window.onload = function(){
+			// alert('test');
+			console.log('onload');
+			h1 = document.getElementById('heading');
+			h1.style.border = "2px solid red";
+
+			h1.className = 'meineKlasse';
+		}
+		// alert('alert');
+		console.log('das war mal unser alert-window');
+	</script>
+  </head>
+  <body>
+
+	  <h1 id="heading">heading</h1>
+
+  </body>
+</html>
+
+
